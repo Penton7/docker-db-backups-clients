@@ -8,6 +8,7 @@ RUN apk add --no-cache \
     mongodb-tools
 
 RUN apk add --no-cache \
+        bash \
         python3 \
         py3-pip \
     && pip3 install --upgrade pip \
